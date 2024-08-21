@@ -47,7 +47,7 @@ class hasht
     {
         return key%N;
     }
-    
+
     int linearprobe(int key)
     {
         return ((hash(key)+i)%N);
@@ -219,3 +219,112 @@ int main()
     return 0;
 }
 
+/*
+OUTPUT
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 1
+Enter the Number of Clients: 3
+
+Enter name: Purva
+
+Enter number: 9090909090
+
+Enter name: Priyanka
+
+Enter number: 7979797979
+
+Enter name: Ashartha
+
+Enter number: 2121212121
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 2
+
+DISPLAYING
+0       Purva : 9090909090
+
+1       Ashartha : 2121212121
+
+2         : 0
+
+3         : 0
+
+4         : 0
+
+5         : 0
+
+6         : 0
+
+7         : 0
+
+8         : 0
+
+9       Priyanka : 7979797979
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 3
+Enter which contact number of client to search:
+2121212121
+
+Found at: 1
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 4
+Enter which no. do you want to delete
+7979797979
+Deleted Operation performed !!
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 2
+
+DISPLAYING
+0       Purva : 9090909090
+
+1       Ashartha : 2121212121
+
+2         : 0
+
+3         : 0
+
+4         : 0
+
+5         : 0
+
+6         : 0
+
+7         : 0
+
+8         : 0
+
+9         : 0
+------MENU------
+        1.Insertion
+        2.Display
+        3.Search
+        4.Delete
+        5.Exit
+Enter Your Choice: 5
+
+Exit
+*/
